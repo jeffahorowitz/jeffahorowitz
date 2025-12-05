@@ -42,13 +42,18 @@ table {
 	border-spacing: 0;
 }
 
+/* ------------------------------
+             FONTS
+   ------------------------------ */
+
+/* Define custom fonts using @font-face */
 @font-face {
-    font-family: 'Montserrat';
-    src: url('fonts/Montserrat-Medium.ttf') format('truetype');
-    font-weight: 500; /* Medium weight */
+    font-family: 'Raleway-Black';
+    src: url('../fonts/Raleway_Black.woff2') format('woff2'),
+         url('../fonts/Raleway_Black.woff') format('woff');
+    font-weight: 900;
     font-style: normal;
 }
-
 
 html { height: 100%; }
 body { min-height: 100%; }
@@ -60,7 +65,8 @@ html, body {
 	background-color: #f2f2f2;
 	text-decoration: none;
 	font-size: 12px;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Raleway-Black', sans-serif;
+    font-weight: 900;
 }
 	
 * { box-sizing: border-box; }
@@ -117,7 +123,7 @@ h2 {
 		   .divider (separator line) and .flex-grid-container 
 		   (lower grid icons) 
 		*/
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway-Black', sans-serif;
 	font-weight: 900;
 	font-style: normal;
 	}
@@ -215,8 +221,8 @@ video { /* video width & positioning */
 	width: 60%;
 	position: absolute;
 	top: 15px;
-	margin-top: 30%;
-	margin-left: 30%;
+	margin-top: 35%;
+	margin-left: 20%;
 	z-index: 1;
 		-webkit-filter: drop-shadow( 2px 2px 2px rgba(0, 0, 0, .3 ));
 		filter: drop-shadow( 2px 2px 2px rgba(0, 0, 0, .3 ));
@@ -250,7 +256,7 @@ button {
 	border: none;
 	border-radius: 0;
 	text-decoration: none;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway-Black', sans-serif;
 	font-weight: 900;
 	font-size: 16px;
 	color: #fff;
